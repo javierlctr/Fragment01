@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Fragmento02"
+    android:background="#FFEB3B" >
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fragmento 2"
+        android:id="@+id/txtFragmento02"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:text="Comunicar"
+        android:id="@+id/btnFragmento02"
+        android:layout_gravity="center_horizontal" />
+
+</FrameLayout>
